@@ -1085,9 +1085,11 @@ export default function (root: HTMLElement, ctx?: { url?: URL }) {
           Profile
         </h1>
         <div class="flex gap-2">
+          <!--
           <button id="delete-account-btn" class="px-4 py-2 rounded-lg bg-red-800 hover:bg-red-900 text-white font-semibold transition-colors">
             Delete Account
           </button>
+          -->
           <button id="logout" class="px-4 py-2 rounded-lg bg-red-600 hover:bg-red-700 text-white font-semibold transition-colors">
             Sign Out
           </button>

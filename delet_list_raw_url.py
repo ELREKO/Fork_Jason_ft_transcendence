@@ -1,8 +1,8 @@
 import requests
 
 OWNER = "ELREKO"      # change this
-REPO = "ft_transcnd"   # change this
-BRANCH = "rene_bugfix_1"        # change this if your repo uses 'master' or another branch
+REPO = "Fork_Jason_ft_transcendence"   # change this
+BRANCH = "main"        # change this if your repo uses 'master' or another branch
 
 
 API_URL = f"https://api.github.com/repos/{OWNER}/{REPO}/git/trees/{BRANCH}?recursive=1"
